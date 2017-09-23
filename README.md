@@ -1,1 +1,2 @@
 # projet
+Auteur : Bastien Rominger
