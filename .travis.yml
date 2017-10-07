@@ -10,4 +10,3 @@ deploy:
   app: lpa2brominger
   on:
     repo: Anium/projet
-
