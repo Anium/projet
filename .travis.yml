@@ -1,9 +1,8 @@
 language: ruby
 rvm:
-<<<<<<< HEAD
+
 - 2.2
-=======
-- 2.2
+
 deploy:
   provider: heroku
   api_key:
@@ -11,4 +10,4 @@ deploy:
   app: lpa2brominger
   on:
     repo: Anium/projet
->>>>>>> 8b98ae77e75977bcdeca8b8bb3863f1731ace4e7
+
