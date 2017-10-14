@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171014084645) do
+ActiveRecord::Schema.define(version: 20171014094957) do
 
   create_table "students", force: true do |t|
     t.string   "name"
@@ -22,9 +22,9 @@ ActiveRecord::Schema.define(version: 20171014084645) do
   end
 
   create_table "towns", force: true do |t|
-    t.string   "Nom"
-    t.string   "Latitude"
-    t.string   "Longitude"
+    t.string   "name"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
