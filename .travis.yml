@@ -8,3 +8,4 @@ deploy:
   app: lpa2brominger
   on:
     repo: Anium/projet
+  run: "rake db:migrate"
