@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'nominatim', '~>0.0.6'
 
+gem 'forecast_io', '~> 2.0.1'
+
+gem 'darksky', '~> 1.0', '>= 1.0.5'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
