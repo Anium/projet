@@ -6,8 +6,8 @@ class Town < ActiveRecord::Base
   def load_position
     if name.present?
       places = Nominatim.search(name).limit(1)
-      self.latitude = places.first.latitude
-      self.longitude = places.first.longitude
+      self.latitude = places.first.lat
+      self.longitude = places.first.lon
     end
   end
 
