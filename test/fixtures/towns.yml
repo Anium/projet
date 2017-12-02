@@ -2,10 +2,10 @@
 
 one:
   name: Belfort
-  latitude: 1.5
-  longitude: 1.5
+  lat: 1.5
+  lon: 1.5
 
-two:
-  name: Paris
-  latitude: 1.5
-  longitude: 1.5
+inexisting:
+  name: InexistingTown
+  lat: 1.5
+  lon: 1.5

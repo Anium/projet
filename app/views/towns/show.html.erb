@@ -6,18 +6,13 @@
 </p>
 
 <p>
-  <strong>Latitude:</strong>
-  <%= @town.latitude %>
+  <strong>Lat:</strong>
+  <%= @town.lat %>
 </p>
 
 <p>
-  <strong>Longitude:</strong>
-  <%= @town.longitude %>
-</p>
-
-<p>
-  <strong>Météo:</strong>
-  <%= resource.currently.summary %>
+  <strong>Lon:</strong>
+  <%= @town.lon %>
 </p>
 
 <%= link_to 'Edit', edit_town_path(@town) %> |
