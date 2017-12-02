@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'nominatim', '~>0.0.6'
 
+gem 'vcr', '~> 3.0', '>= 3.0.1', group: [:development, :test]
+
 gem 'forecast_io', '~> 2.0.1'
 
 gem 'darksky', '~> 1.0', '>= 1.0.5'
